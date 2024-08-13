@@ -11,11 +11,11 @@ class Sitelogo extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.only(left: 20),
         child: Text(
-          "HJ",
-          style: GoogleFonts.merriweather(
+          "Himaya Jawad",
+          style: GoogleFonts.lobster(
               textStyle: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
+            fontSize: 22,
+            // fontWeight: FontWeight.bold,
           )),
         ),
       ),

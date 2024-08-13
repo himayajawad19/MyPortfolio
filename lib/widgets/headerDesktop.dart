@@ -27,21 +27,21 @@ class headerDesktop extends StatelessWidget {
           ),
           Spacer(),
           for (int i = 0; i < navTitles.length; i++)
-            Padding(
-              padding: const EdgeInsets.only(right: 20),
-              child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    navTitles[i],
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.black,
-                    ),
-                  )),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.only(right: 20),
+            // child:
+            TextButton(
+                onPressed: () {},
+                child: Text(
+                  navTitles[i],
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.black,
+                  ),
+                )),
+          // ),
           Spacer(),
           searchBar(),
-          Spacer(),
         ],
       ),
     );
